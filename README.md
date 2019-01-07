@@ -5,6 +5,15 @@ deep search based on Mozilla Deep Search (https://github.com/mozilla/DeepSpeech)
 see https://github.com/mozilla/DeepSpeech#prerequisites
 
 # Using python package
+test step:
+1. virtualenv -p python3 /Users/garyhsu/workspace/deepspeech-venv
+2. source /Users/garyhsu/workspace/deepspeech-venv/bin/activate
+3. using pre-train model 
+4. deepspeech --model output_graph.pbmm --alphabet alphabet.txt --lm lm.binary --trie trie --audio OSR_us_000_0010_8k.wav
+Loading model from file output_graph.pbmm
+
+Result:
+![English test result](test_result.png)
 
 test dataset:
 http://www.voiptroubleshooter.com/open_speech/index.html
