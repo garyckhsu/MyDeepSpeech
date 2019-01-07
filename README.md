@@ -13,7 +13,7 @@ test step:
 Loading model from file output_graph.pbmm
 
 Result:
-![English test result](test_result.png)
+[https://github.com/garyckhsu/MyDeepSpeech/blob/master/test_result.jpg](https://github.com/garyckhsu/MyDeepSpeech/blob/master/test_result.jpg)
 
 test dataset:
 http://www.voiptroubleshooter.com/open_speech/index.html
