@@ -57,5 +57,3 @@ FileNotFoundError: [Errno 2] SoX not found, use 16kHz files or install it: No su
 # Solution
 $brew install sox
 
-# how to use
-$ deepspeech --model output_graph.pbmm --alphabet alphabet.txt --lm lm.binary --trie trie --audio OSR_us_000_0010_8k.wav > OSR_us_000_0010_8k.txt
